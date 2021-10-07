@@ -17,12 +17,19 @@ Link to Pageviews API endpoint: https://wikimedia.org/api/rest_v1/#/Pageviews_da
 # In the final data file, we have 8 total columns:
 
 year: The year the Wikipedia visit data was collected from
+
 month: The month the Wikipedia visit data was collected from
+
 pagecount_all_views: The number of desktop and mobile page counts aggregated together
+
 pagecount_mobile_views: The number of mobile-specific page counts
+
 pagecount_desktop_views: The number of desktop-specific page counts 
+
 pageviews_all_views: The number of desktop and mobile page views aggregated together 
+
 pageviews_mobile_views: The number of mobile-specific page views
+
 pageviews_desktop_views: The number of desktop-specific page views
 
 Special considerations with the data would be to pay attention to the type of data we are working with. The API calls will result on a JSON data structure and the analysis requires us to convert that data to a CSV. Taking special care to convert the data properly through data types is critical in this analysis. Furthermore, there should be no null values in our analysis, rather we should replace all our NaN values with 0. 
