@@ -1,6 +1,6 @@
 # data-512-a1
 
-The goal of this project is to examine the changes in desktop and mobile traffic that the Wikipedia website has had over the time period of January 2008 to August 2021. We will accomplish this by requesting API data, cleaning the data, and publishing a dataset. 
+The goal of this project is to examine the changes in desktop and mobile traffic that the Wikipedia website has had over the time period of January 2008 to August 2021. We will accomplish this by requesting API data from two different REST API endpoints, cleaning the data, and publishing a dataset. 
 
 Link to license of the source data and a link to the Wikimedia Foundation REST API terms of use: https://www.mediawiki.org/wiki/Wikimedia_REST_API#Terms_and_conditions
 
